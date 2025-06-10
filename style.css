@@ -1,0 +1,155 @@
+body {
+    color:tomato
+}
+
+#titulo {
+    color:blue;
+    font-size: 2em;
+}
+
+p.texto {
+    color: green;
+    font-size: 1.2em;
+}
+p.especial {
+    color: rgb(227, 227, 20);
+    font-weight: bold;
+}
+
+div p {
+    color: purple;
+    font-size: 1.5em;
+}
+div h2, div h3 {
+    color: brown;
+    font-size: 1.5em;
+}
+
+* {
+   font-size: 24px;
+   color : black;
+}
+/*.color {
+    color:#0ff;
+}   */
+
+/*Esto es un comentario*/
+
+.color {
+   /* border: 5px black solid;*/
+   border-style: solid;
+   border-color: aqua;
+   border-radius: 5px;
+   border-width: 5px;
+}
+#fondo{
+    background-color: rgba(0, 0, 0, 0.5);
+    /*opacity: 0.3;*/
+    background-image: url('maquinon.png');
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    
+
+}
+.margen {
+    background-color: chocolate;
+    margin: 100px 100px 50px 100px;
+    padding: 100px 10px 10px 10px;
+    border : 5px solid black;
+    height: 200px;
+    width: 1500px;
+    overflow: scroll;
+    outline: 10px solid tomato
+}
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    text-decoration: none;
+}
+ul {
+    background-color: aqua;
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+table {
+     width: 100%;
+     border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: lightgray;
+    color:aliceblue;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: lightblue;
+    cursor:pointer
+}
+span {
+    display: block;
+    background-color: tomato;
+    width: 300px;
+}
+.inline {
+    display: inline;
+    color: red;
+}
+#position{
+    position: fixed;
+    left: 100px;
+
+}
+.left {
+    float: left;
+    width: 100px;
+}
+.right {
+    float: right;
+    width: 50px;
+}
+.container {
+   height: 200px;
+}
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+.center {
+    padding: 50px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
