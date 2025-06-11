@@ -1,88 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
-    <title>Mi primera web</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }	
-    </style>
+    <title>Mi primer blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <table style="width:100%">
-        <thead>
-        <tr>
-            <th>Precio</th>
-            <th>Producto</th>
-            <th>Descripción</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>10€</td>
-            <td>Producto 1</td>
-            <td>Descripción del producto 1</td>
-        </tr>
-        
-        
-        <tr>
-            <td>20€</td>
-            <td>Producto 2</td>
-            <td>Descripción del producto 2</td>
-        </tr>
-        </tbody>
-        <tfoot>
-            <td>30€</td>
-            <td>IVA incluido</td>
-        
-    </table>
-
-
-    <!--ul lista no ordenada-->
-    <ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-    </ul>
-    <ol>
-        <li value="69">Elemento 1</li> 
-        <li>Elemento 3</li>
-        <li>Elemento 2</li> 
-        <li>Elemento 1</li>  
-    </ol>
-        <ol>
-            <li style="list-style-type: lower-alpha;">Elemento 2</li>
-            <li style="list-style-type: lower-alpha;">Elemento 3</li> 
-            <li style="list-style-type: lower-alpha;">Elemento 4</li>  
-        </ol>
-    <form action="/formulario" method="post">
-        <label for="name">Nombre:</label>
-        <input value="pig" id="name" type="text" name="name" placeholder="Escribe tu nombre" required><br>
-        <label for="apellido">Apellido: </label>
-        <input value="porki" type="text"><br>
-        <label for="email">Comentario: </label><br>
-        <textarea  rows="10" cols="50" id="comentario" placeholder="comentario">beg</textarea><br>
-        <button type="button">Enviar</button>
-        <button type="reset">Enviar</button>
-        <button type="submit">Enviar</button>
-    </form>
-    <h1>Mi primer heading</h1>
-    <h2>Mi segundo heading</h2>
-    <h3>Mi tercer</h3>
-    <h4>El cuarto</h4>
-    <h5>El quinto</h5>
-    <h6>El sexto</h6>
-    <p>Siempre activo</p>
-    <hr>
-    <!-- Comentario: Este es un comentario HTML -->
-    <h2>Imbatible</h2>
-    <p>Estamos en movimiento, <span style="color:blue">lala</span> la revolucion a empezado y yo llegare de los <br><br> primeros</p>
-    <a target="_blank" href="https://www.google.com">Ir a google</a><br>
-    <img src="img/ciberseguridad.jpeg" width="400" height="300" alt=""/>
+    <header id="titulo">
+        <h1>Blog de tech</h1>
+    </header>
     
+    <section class="container"> >
+        <article class="blog-post">
+            
+            <h2>Fanaticios de la tecnologia</h2>
+            <h3>Ciberseguridad,IA, programacion y mucho mas</h3>
+            <img src="img/ciberseguridad2.jpeg" alt="no estamos solos" width="400">
+            <p>Gracias a este post estaras informado sobre la actualidad de la tecnologia, avanzamos rapido asi que no te pierdas ningun contenido. Llego la MATRIX!</p>
+        </article>
+        <article class="blog-post">
+            <h2>Desarrollador y estilo de vida</h2>
+            <h3>Lo llevamos en la sangre</h3>
+            <img src="img/ciberseguridad0.jpeg" alt="no estamos solos" width="400">
+            <p>Queremos nuestro trozo de pastel. Llego la MATRIX!</p>
+        </article>
+        <article class="blog-post">
+            <h2>El cambio es inevitable</h2>
+            <h3>Ahi que adpatarse, empieza el juego</h3>
+            <img src="img/ciberseguridad.jpeg" alt="no estamos solos" width="400">
+            <p>Preparense señores y señoras porque la revolucion esta llegando. Llego la MATRIX!</p>
+        </article>
+    </section>
+    <footer>
+        <section>
+        <a href="#titulo">Ir al comienzo</a><br>
+        <a href="mailto:modomaquina@.com">Mas informacion aqui</a>
+        </section>
+        <p>Sergytech Robot 2025</p>
+    </footer>
 </body>
 </html>
